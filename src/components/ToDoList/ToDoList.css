@@ -1,0 +1,80 @@
+.completed {
+  text-decoration: line-through;
+  
+}
+
+.ToDoList {
+  display: flex;
+  justify-content: center;
+}
+ 
+.ToDoItem {
+  color: black;
+  margin-top: 80px;
+  /* background-color: aquamarine; */
+  width: 1000px;
+}
+
+
+.ToDoBlock {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: .5s ease ;
+}
+
+.ToDoBlock:hover {
+  background-color: rgba(221, 219, 219, 0.884);
+}
+
+.TeamChek {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aqua; */
+  width: 100px;
+  /* font-size: 20px; */
+}
+
+.ToDoChek {
+  width: 20px;
+  height: 20px;
+}
+
+
+.TeamBtn {
+  display: flex;
+}
+
+.ToDoBtnDelete {
+  background: none;
+  border: none;
+  transition: .5s ease ;
+  padding: 12px 14px 12px 14px;
+}
+
+.ToDoBtnDelete:hover {
+  /* background-color: rgba(173, 172, 172, 0.884); */
+  background-color: #fff;
+  border-radius: 50%;
+  color: rgba(247, 31, 31, 0.551);
+}
+
+.ToDoBtnExit {
+  background: none;
+  border: none;
+  border: 2px solid black;
+  transition: .5s ease ;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.ToDoBtnExit:hover {
+  background-color: rgba(255, 255, 255, 0.884);
+  border: 2px solid rgba(255, 0, 0, 0.551);
+  color: rgba(255, 0, 0, 0.551);
+}

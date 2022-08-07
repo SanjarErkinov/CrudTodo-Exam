@@ -1,0 +1,39 @@
+.AddToDoBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.AddTodoTitle {
+    padding-left: 50px;
+    position: absolute;
+    top: 0;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+}
+
+.AddToDoInput {
+    margin-top: 120px;
+    padding: 18px 20px 18px 15px;
+    border: 2px solid rgb(79, 79, 188);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.AddToDoBtn {
+    height: 60px;
+    width: 60px;
+    margin-top: 120px;
+    margin-left: 10px;
+    border: 2px solid rgb(79, 79, 188);
+    border-radius: 5px;
+    font-size: 16px;
+    background: none;
+    transition: .5s ease ;
+}
+
+.AddToDoBtn:hover {
+    background-color: rgba(255, 255, 255, 0.884);
+    border: 2px solid rgba(255, 0, 0, 0.551);
+    color: rgba(255, 0, 0, 0.551);
+}
